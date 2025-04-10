@@ -1,0 +1,114 @@
+*{
+    font-family: Poppins;
+    outline: none;
+}
+
+:root{
+    --blue_dark : #0C457A;
+    --blue_light : #115695;
+    --yellow_light: #F4DD4B;
+    --yellow_dark : #F6C616;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #F4DD4B;
+}
+
+.card{
+    background: linear-gradient();
+    margin: 10%;
+    
+    padding-top: 0%;
+    border: solid 5px black;
+    border-radius: 20px;
+    justify-content: center;
+    padding-top: none;
+    padding: 10px 40px 40px;
+    z-index: 1;
+}
+
+.card input{
+    border: solid 2px var(--blue_dark);
+    border-right: none;
+    background-color: var(--yellow_dark);
+    font-size: x-large;
+    
+    padding: 5px 10px 5px ;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+
+    align-items: center;
+
+}
+
+.card .input_thing{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card button{
+    background-color: var(--blue_light);
+    color: var(--yellow_dark);
+    font-size: x-large;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-left: none;
+    border-color: black;
+    cursor: pointer;
+    padding: 5px 10px 5px;
+
+}
+
+.create{
+    display: flex;
+    justify-content: center;
+}
+
+.card button:hover{
+    background-color:#2c80cf ;
+}
+
+.answer{
+    display: flex;
+    justify-content: center;
+}
+
+.answer p{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+.real_answer{
+    
+    border-bottom: 8px var(--blue_dark) solid;
+    display: flex;
+    
+}
+
+.real_answer img{
+    height: 80px;
+    object-fit: contain;
+    margin-bottom: -4px;
+    margin-right:20px;
+    
+}
+
+.real_answer p {
+    font-size: 20px;
+    margin: 0px;
+    text-decoration: underline;
+    font-family: 'Arial', sans-serif; 
+    font-weight: bold; 
+    font-style: italic; 
+    line-height: 1.5; 
+    color: #333; 
+    letter-spacing: 0.5px; 
+  }
+
+  
